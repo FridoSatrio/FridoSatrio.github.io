@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Websiteku</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        .navigasi{
+            background-color: black;
+            margin: 12px;
+        }
+        .navigasi a {
+            color:white;
+        }
+        .header{
+            color: red;
+            background-color: black;
+        }
+        .navigasi a.pull-right{
+            float: right;
+        }
+        .navigasi li{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigasi">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li> 
+            <li><a class="pull-right" href="#">Sign In</a></li> 
+            <li><a class="pull-right" href=signup.html>Sign Up</a></li>
+        </ul>
+    </div>
+    
+    <!--<div class="header">
+        <h1 align="center">Selamat Datang Di Websiteku</h1>
+    </div>-->
+    <form action="/my-handling-form-page" method="post">
+        <div class="container">
+            <p>
+            <label for="nama"><b>Nama:</b></label>
+            <input type="text" id="nama" name="user_name" placeholder="Nama Depan" >
+                <input type="text" id="nama" name="user_name" placeholder="Nama Belakang" >
+            <br>
+                <label for="mail"><b>Email:</b></label>
+            <input type="email" id="mail" name="user_email" placeholder="Alamat Email" required>
+                <br>
+                <label for="telp"><b>No. Telpon:</b></label>
+                <input type="text" name="user_telp" id="telp" placeholder="No. Telp">
+            <br>
+                <label for="pass"> <b>Password:</b> </label>
+                <input type="password" name="" id="pass" placeholder="Password" required>
+                <br>
+                <label for="rpt-pass"><b>Repeat Password:</b></label>
+                <input type="password" name="repeatpassword" id="rptpass" placeholder="Repeat Password" required>
+                <br>
+                <input type="checkbox" checked="checked"> Remember me
+                <p><input type="checkbox">Dengan ini saya menyetujui <a href="#">Ketentuan</a> dan	<a href="#">Persayaratan & Privasi</a> yang telah ditentukan</p>
+            </p>
+          <div class="button">
+          	<button type="submit">Kirim</button>
+            </div>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+</html>
